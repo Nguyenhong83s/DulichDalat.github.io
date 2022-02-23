@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    } 
+    
+    body{
+        font-family: Arial;
+        padding: 10px;
+        background-color: white;
+    }
+    .topnav{
+        overflow: hidden;
+        background-color: rgb(255, 88, 116);
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .topnav a:hover {
+        background-color: orangered;
+        color: white;
+    }
+    .left{
+        float: left;
+        margin-top: 2px;
+        border: 2px solid brown;
+        padding: 10px;
+        margin: 10px;
+        width: 98%;
+    }
+    .left>h5{
+        color: blue;
+    }
+    .leftcolumn{
+        float: left;
+        width: 30%;
+    }
+    .rightcolumn{
+        float: right;
+        width: 70%;
+    }
+    .card-new{
+        border: 3px dashed rgb(167, 13, 64) ;
+        background-color: rgb(243, 193, 201);
+        width: 100%;
+        height: 800px;
+    }
+    .image{
+        width: 100%;
+        height: 80%;
+        
+    }
+    .marquee{
+        background-color: khaki;
+        background-size: 600px 500px;
+        color: green;
+        border: 2px white;
+    }
+    .p{
+        color: maroon;
+    }
+    footer{
+        padding: 10px;
+        text-align: center;
+        background: lemonchiffon;
+        margin-top: 10px;
+    }

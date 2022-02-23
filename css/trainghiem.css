@@ -1,0 +1,82 @@
+.topnav{
+    overflow: hidden;
+    background-color: chocolate;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: orangered;
+    color: white;
+}
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+.card{
+    width: 100%;
+    border: 3px solid green;
+    background-color: rgb(221, 240, 221);
+}
+.card>h1{
+    color: red;
+}
+.card>h1:hover{
+    color: blue;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rightcolumn{
+    float: right;
+    width: 28%;
+    padding: 10px;
+}
+.search{
+    padding: 5px;
+    width: 98%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.search:focus{
+    background: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.vmenu a{
+    background: url("../image/hoa\ 2.png") no-repeat 20px center;
+    background-size: 10px;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url("../image/hoa1.png") no-repeat 20px center;
+    background-size: 10px;
+    border-bottom: 1px dotted white;
+    background-color: rgb(200, 240, 140);
+    color: white;
+    font-weight: bold;
+}
+.h2{
+    text-align: center;
+    color: forestgreen;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background: lemonchiffon;
+    margin-top: 10px;
+}
